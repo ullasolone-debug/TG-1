@@ -21,7 +21,7 @@ SCL: Подключите к A5 на Arduino Nano (стандартный пин
 Убедитесь, что резистор нагрузки (RL) для датчика MQ-6 составляет 20 кОм (как указано в коде; проверьте даташит). Установите библиотеки Adafruit GFX и Adafruit SSD1306 через менеджер библиотек Arduino IDE. Если дисплей имеет другой адрес I2C (например, 0x3D), измените в коде.
 
 Project Description
-This project is a system for measuring natural gas (methane) concentration using an MQ-6 sensor connected to an Arduino Nano. The concentration is displayed on an OLED display (SSD1306, 128x64 pixels, I2C interface) in PPM (parts per million).
+This project is a device for detecting leaks and estimating the concentration of natural gas (methane) using an MQ-6 sensor connected to an Arduino Nano. The concentration is displayed on an OLED display (SSD1306, 128x64 pixels, I2C interface) in PPM (parts per million).
 The sketch includes:
 Calibration of the sensor in clean air to calculate the base resistance R0.
 Continuous reading of data from the sensor's analog output.
